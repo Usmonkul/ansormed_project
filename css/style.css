@@ -6,7 +6,7 @@ body {
   color: #222;
 }
 *:focus {
-  outline: 2px dotted #DE2E57;
+  outline: 2px dotted #DE2E54;
   outline-offset: 3px;
 }
 /* Header section */
@@ -16,6 +16,23 @@ body {
   justify-content: space-evenly;
   padding: 24px 0px;
 
+}
+.logo a img {
+  width: 50px;
+  height: 50px;
+  padding-right: 16px;
+}
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222;
+}
+.logo a:hover {
+  color: #DE2E54;
 }
 .nav-links {
   display: flex;
@@ -34,7 +51,7 @@ body {
    opacity 0.4s ease;
 }
 .nav-item:hover {
-  color: #DE2E57;
+  color: #DE2E54;
 }
 .nav-item:active {
   opacity: 0.6;
@@ -45,10 +62,10 @@ body {
   font-size: 15px;
   letter-spacing: 2px;
   color: #fff;
-  background-color: #DE2E57;
+  background-color: #DE2E54;
   text-decoration: none;
   padding: 12px 24px;
-  border: 2px solid #DE2E57;
+  border: 2px solid #DE2E54;
   border-radius: 8px;
   text-transform: uppercase;
   transition: background-color 0.6s ease,
@@ -56,13 +73,13 @@ body {
 }
 .main-link:hover {
   background-color: #fff;
-  color: #DE2E57;
+  color: #DE2E54;
 }
 .main-link:active {
   color: #ffffff;
   opacity: 0.6;
-  background-color: #DE2E57;
-  border: 2px solid #DE2E57;
+  background-color: #DE2E54;
+  border: 2px solid #DE2E54;
 }
 
 /* Hero section */
@@ -158,8 +175,8 @@ body {
    background-color 0.7s ease, opacity 0.4s ease;
 }
 .media-link-button:hover {
-  border: 2px solid #DE2E57;
-  background-color: #DE2E57;
+  border: 2px solid #DE2E54;
+  background-color: #DE2E54;
 }
 .media-link-button:active {
   opacity: 0.6;
@@ -174,9 +191,29 @@ body {
   justify-content: space-around;
   width: 1100px;
 }
-
+.footer-logo a img {
+  width: 50px;
+  height: 50px;
+  padding-right: 16px;
+}
+.footer-logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+  transition: color 0.5s ease,
+   opacity 0.5s ease;
+}
 .footer-logo a:hover{
-  color: rgb(241, 12, 12);
+  color: #DE2E54;
+}
+.footer-logo a:active{
+  color: #DE2E54;
+  opacity: 0.6;
+  color: #fff;
 }
 .footer-navbar {
   width: 497px;
@@ -192,7 +229,7 @@ body {
    opacity 0.6s ease;
 }
 .footer-nav-links:hover {
-  color: #DE2E57;
+  color: #DE2E54;
 }
 .footer-nav-links:active {
   opacity: 0.6;
