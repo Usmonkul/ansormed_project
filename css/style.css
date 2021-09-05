@@ -27,6 +27,14 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-right: 32px;
+  transition: color 0.4s ease,
+   opacity 0.4s ease;
+}
+.nav-item:hover {
+  color: #DE2E57;
+}
+.nav-item:active {
+  opacity: 0.6;
 }
 .main-link {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -40,6 +48,18 @@ body {
   border: 2px solid #DE2E57;
   border-radius: 8px;
   text-transform: uppercase;
+  transition: background-color 0.6s ease,
+   color 0.6s ease, opacity 0.4s ease;
+}
+.main-link:hover {
+  background-color: #fff;
+  color: #DE2E57;
+}
+.main-link:active {
+  color: #ffffff;
+  opacity: 0.6;
+  background-color: #DE2E57;
+  border: 2px solid #DE2E57;
 }
 
 /* Hero section */
@@ -131,6 +151,15 @@ body {
   text-transform: uppercase;
   border: 2px solid #fff;
   border-radius: 8px;
+  transition: border 0.7s ease,
+   background-color 0.7s ease, opacity 0.4s ease;
+}
+.media-link-button:hover {
+  border: 2px solid #DE2E57;
+  background-color: #DE2E57;
+}
+.media-link-button:active {
+  opacity: 0.6;
 }
 /* Footer */
 .site-footer {
@@ -144,7 +173,7 @@ body {
 }
 
 .footer-logo a:hover{
-  fill: #fff;
+  color: rgb(241, 12, 12);
 }
 .footer-navbar {
   width: 497px;
@@ -156,4 +185,13 @@ body {
 .footer-nav-links {
   color: #fff;
   text-decoration: none;
+  transition: color 0.6s ease,
+   opacity 0.6s ease;
+}
+.footer-nav-links:hover {
+  color: #DE2E57;
+}
+.footer-nav-links:active {
+  opacity: 0.6;
+  color: #fff;
 }
