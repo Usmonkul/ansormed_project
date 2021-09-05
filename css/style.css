@@ -4,7 +4,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #222;
-
+}
+*:focus {
+  outline: 2px dotted #DE2E57;
+  outline-offset: 3px;
 }
 /* Header section */
 .header-container {
