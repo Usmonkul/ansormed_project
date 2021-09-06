@@ -109,6 +109,13 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  margin: auto;
+}
 .hero-content {
   width: 500px;
   color: #fff;
@@ -130,7 +137,7 @@ body {
   margin-bottom: 36px;
 }
 .hero-image {
-  padding: 29px 170px 0px 0px;
+  padding: 29px 70px 0px 0px;
 }
 .hero-image img {
   display: block;
@@ -254,7 +261,7 @@ body {
   width: 1100px;
   display: flex;
   justify-content: space-around;
-  margin: 0px 170px;
+  margin: auto;
 }
 .footer-logo a img {
   width: 60px;
