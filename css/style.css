@@ -17,28 +17,31 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1140px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-right: auto;
   margin-left: auto;
 }
 /* Header section */
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 24px 50px;
+  justify-content: space-between;
+
 }
 .logo {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 185px;
 }
 .logo a img {
-  width: 50px;
-  height: 50px;
   margin-right: 16px;
-  display: block;
+  border-radius: 50%;
 }
 .logo a {
   text-decoration: none;
@@ -54,9 +57,15 @@ body {
 .logo a:hover {
   color: #DE2E54;
 }
+.logo a:active {
+  opacity: 0.6;
+}
 .nav-links {
   display: flex;
   list-style: none;
+}
+.links:not(:last-child) {
+  margin-right: 32px;
 }
 .nav-item {
   font-weight: bold;
@@ -66,7 +75,6 @@ body {
   line-height: 150%;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-right: 32px;
   transition: color 0.4s ease,
   opacity 0.4s ease;
 }
@@ -77,14 +85,15 @@ body {
   opacity: 0.6;
 }
 .main-link {
-  font-family: 'Open Sans Condensed', sans-serif;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', "Arial", sans-serif;
   font-weight: bold;
   font-size: 15px;
   letter-spacing: 2px;
   color: #fff;
   background-color: #DE2E54;
   text-decoration: none;
-  padding: 12px 24px;
+  padding: 10px 22px;
   border: 2px solid #DE2E54;
   border-radius: 8px;
   text-transform: uppercase;
@@ -94,12 +103,12 @@ body {
 .main-link:hover {
   background-color: #fff;
   color: #DE2E54;
+  border-color: #DE2E54;
 }
 .main-link:active {
   color: #ffffff;
   opacity: 0.6;
   background-color: #DE2E54;
-  border: 2px solid #DE2E54;
 }
 
 /* Hero section */
@@ -250,16 +259,13 @@ body {
 .site-footer {
   background-color: #222;
   padding: 24px 0px;
+  color: #fff;
 }
 .footer-container {
   display: flex;
   justify-content: space-around;
 }
-.footer-logo a img {
-  width: 50px;
-  height: 50px;
-  margin-right: 16px;
-}
+
 .footer-logo a {
   text-decoration: none;
   display: flex;
@@ -278,9 +284,6 @@ body {
   color: #DE2E54;
   opacity: 0.6;
   color: #fff;
-}
-.footer-navbar {
-  width: 497px;
 }
 .footer-navbar ul {
   display: flex;
